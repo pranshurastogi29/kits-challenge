@@ -3,8 +3,8 @@ import os
 import SimpleITK as sitk
 import cv2
 import numpy as np
-from dataprocess.utils import file_name_path
-from dataprocess.dataAnaly import getImageSpacing
+from utils import file_name_path
+from dataAnaly import getImageSpacing
 
 
 def getRangImageDepth(image):
