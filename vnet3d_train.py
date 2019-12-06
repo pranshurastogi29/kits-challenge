@@ -6,7 +6,7 @@ from tensorflow.python.client import device_lib
 
 print(device_lib.list_local_devices())
 
-from Vnet.model_vnet3d import Vnet3dModule
+from model_vnet3d import Vnet3dModule
 import numpy as np
 import pandas as pd
 
