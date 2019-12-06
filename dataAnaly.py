@@ -2,7 +2,7 @@ from __future__ import print_function, division
 import SimpleITK as sitk
 import json
 import numpy as np
-from dataprocess.utils import file_name_path
+from utils import file_name_path
 
 kits_path = "D:\Data\KiTS\kits19_download\data"
 image_name = "imaging.nii.gz"
