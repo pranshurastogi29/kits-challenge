@@ -1,7 +1,7 @@
 '''
 
 '''
-from Vnet.layer import (conv3d, deconv3d, normalizationlayer, crop_and_concat, resnet_Add,
+from layer import (conv3d, deconv3d, normalizationlayer, crop_and_concat, resnet_Add,
                         weight_xavier_init, bias_variable, save_images)
 import tensorflow as tf
 import numpy as np
